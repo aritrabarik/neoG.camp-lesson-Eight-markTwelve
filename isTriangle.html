@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>isTriangle?</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <a href="isTriangle.html">isTriangle</a>
+      <a href="isTriangle.html" class="item-active">isTriangle</a>
       <a href="triangleQuiz.html">triangleQuiz</a>
       <a href="hypotenuse.html">hypotenuse</a>
+      <a href="area.html">area</a>
     </nav>
-    <h1>isTriangle?</h1>
-    <label for="angle1">angle 1: </label>
-    <input type="number" class="angle-input" />
-    <label for="angle2">angle 2: </label>
-    <input type="number" class="angle-input" />
-    <label for="angle3">angle 3: </label>
-    <input type="number" class="angle-input" />
-    <button id="is-triangle-btn">isTriangle?</button>
-    <div id="output"></div>
+    <h1 class="heading">isTriangle?</h1>
+    <div class="angle-container">
+      <div class="input-container">
+        <label for="angle1">angle 1: </label>
+        <input type="number" class="angle-input" />
+      </div>
+      <div class="input-container">
+        <label for="angle2">angle 2: </label>
+        <input type="number" class="angle-input" />
+      </div>
+      <div class="input-container">
+        <label for="angle3">angle 3: </label>
+        <input type="number" class="angle-input" />
+      </div>
+
+      <button class="btn" id="is-triangle-btn">isTriangle?</button>
+
+      <h2 class="output" id="is-triangle-output"></h2>
+    </div>
   </body>
-  <script src="./isTriangle.js"></script>
+  <script src="isTriangle.js"></script>
 </html>
