@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>area</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="isTriangle.html">isTriangle</a>
+      <a href="triangleQuiz.html">triangleQuiz</a>
+      <a href="hypotenuse.html">hypotenuse</a>
+      <a href="area.html" class="item-active">area</a>
+    </nav>
+
+    <h1 class="heading">Calculate Area Of a Triangle</h1>
+    <h2 class="formula">Area of a triangle = 1/2(Base * Height)</h2>
+    <div class="angle-container">
+      <div class="input-container">
+        <label for="base"
+          >Base(in cm)
+          <input class="area-input" id="base" />
+        </label>
+      </div>
+      <div class="input-container">
+        <label for="height"
+          >Height(in cm)
+          <input class="area-input" id="height" />
+        </label>
+      </div>
+      <button id="area-btn" class="btn">Calculate Area</button>
+    </div>
+    <h2 id="area-output" class="output"></h2>
+    <script src="area.js"></script>
+  </body>
+</html>
