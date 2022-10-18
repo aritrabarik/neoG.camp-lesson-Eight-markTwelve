@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  --primary-color: #c4b5fd;
+  --background-color: #1f2937;
+  --text-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  /* color: var(--primary-color); */
+  margin-bottom: 2rem;
+}
+
+.quiz-container {
+  padding: 2rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.quiz-container p {
+  margin-bottom: 1rem;
+}
+
+.quiz-container label {
+  margin-right: 0.5rem;
+}
+
+.angle-container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  padding: 0.5rem;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.25rem;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.output {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.input-container {
+  margin: 1rem 0;
+}
+
+.input-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 97%;
+  margin: 0.5rem 1rem 1rem 0;
+}
+
+.formula {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 0.5rem;
+  border: 2px solid var(--primary-color);
+}
+
+nav {
+  background: var(--primary-color);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.5rem;
+  font-weight: 1000;
+  font-size: 1rem;
+}
+
+.item-active {
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .angle-container,
+  .container,
+  .formula {
+    width: 50%;
+  }
+}
